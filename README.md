@@ -7,6 +7,7 @@ The output file of your program will be the matrix `B` with the located patterns
 The first line of the input contains the size of `A`, next lines contains the matrix `A` row by row, next line contains the size of `B` and next lines contains the matrix `B` row by row.
 ### Output
 The output is the matrix B with the located patterns marked.
+
 Usage:
 ---
 There are 2 version: User input / Google tests input
