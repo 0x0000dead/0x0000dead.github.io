@@ -15,3 +15,9 @@ There are 2 version: User input / Google tests input
 Via console: `mkdir build && cd build && cmake .. && make` then `./digital <input_file> <output_file>`.
 ### Google test usage:
 Via console: `mkdir build && cd build && cmake .. && make` then `./digital`.
+
+Complexity:
+---
+My implementation is `O(n1*n2*m1*m2)` time complexity, where n1,n2 - row/col size of martix `A` respectively. And m1/m2 - row/col size of matrix `B` respectively.
+
+Mathematically proved, that there should be linear solution. So it's `Baker-Bird` algorithm. It can be found [e.g here](https://ocw.snu.ac.kr/sites/default/files/NOTE/4047.pdf). Due to not deep knowledge of KMP and Aho-Corasick algorithm, which using in `Baker-Bird` I haven't enough time to implement this `O(n1*n2+m1*m2)` solution.
